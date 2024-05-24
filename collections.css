@@ -1,0 +1,73 @@
+body{
+    background-color: #ECEFF1;
+    margin: 0;
+    font-family: 'Inter', serif;
+    color: black;
+}
+
+nav{
+    background-color: #003B65;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+
+.footer{
+    background-color: #091233;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+}
+
+.media{
+    width: 30px;
+    height: 30px;
+    gap: 30px;    
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mastercard{
+    width: 80px;
+    height: 30px;
+}
+
+.left h1{
+    color: white;
+}
+
+h6{
+    color: white;
+}
+
+.sociallink{
+    display: flex;
+    gap: 20px;
+}
+
+hr{
+    padding: 20px 30px 20px 30px;
+    border-color: #e9b92f;
+    border: bold 2px;
+
+
+}
